@@ -8,6 +8,7 @@ This repository has the goal of practicing programming through the solution of c
 
 - Javascript
 - Java
+- Clojure
 - SQL
 
 ## Editor
