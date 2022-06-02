@@ -8,6 +8,7 @@ This repository has the goal of practicing programming through the solution of c
 
 - Javascript
 - Java
+- Clojure
 - SQL
 
 ## Editor
@@ -15,6 +16,28 @@ This repository has the goal of practicing programming through the solution of c
 In order to better practice code writing, all solutions here were developed using [VIM](https://www.vim.org/download.php).
 
 I have recently started to use this text editor because it gives no help when it comes to code autocomplete and I have found myself struggling to do simple things, specially with Java, therefore by using VIM and repeating the code over and over again I hope to learn even more about Java and all the other listed languages to be used.
+
+## Searching for files in Vim
+
+### Searching through the terminal
+
+To search for a file in VIM you may use:
+
+```bash
+:e <filesname>
+```
+
+The problem with this approach is that you have to remember the exactly and often you don’t know it.
+
+In addition to that you can write `:e` and the press tab, so the terminal will make suggestions of file you may navigate to, however that isn’t efficient as well.
+
+### Searching through the file explorer
+
+To open up file explorer try:
+
+```bash
+:e .
+```
 
 ## Running Clojure codes
 
