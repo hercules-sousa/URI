@@ -42,9 +42,6 @@ class Main {
 			long n1 = Long.parseLong(inputs[0]);
 			long n2 = Long.parseLong(inputs[1]);
 
-			// System.out.println(convertToBinary(n1));
-			// System.out.println(convertToBinary(n2));
-
 			String binary1 = convertToBinary(n1);
 			String binary2 = convertToBinary(n2);
 
@@ -79,8 +76,6 @@ class Main {
 				}
 			}
 
-			// System.out.println(power(2, 3));
-			// System.out.println(binarySum.toString());
 			long result = 0;
 
 			for (int i = 0; i < binarySum.toString().length(); i++) {
